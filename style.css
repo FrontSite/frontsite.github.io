@@ -1,0 +1,123 @@
+body {
+  margin: 0;
+  background-image: linear-gradient(
+    to right,
+    #d7d2cc 0%,
+    rgb(158, 158, 158) 50%,
+    #304352 100%
+  );
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: medium;
+}
+
+.header {
+  text-align: center;
+  font-size: 50px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+nav {
+  text-align: center;
+}
+
+button {
+  width: 230px;
+  height: 142px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-family: 'Piazzolla', serif;
+  font-size: 30px;
+  cursor: pointer;
+  position: relative;
+  border-style: none;
+}
+
+button:active {
+  border-style: none;
+  
+}
+
+button:focus {
+  border: none;
+  outline: none;
+}
+
+.btn-grad4 {
+  background-image: linear-gradient(
+    to right,
+    #1d2b64 0%,
+    #f8cdda 51%,
+    #1d2b64 100%
+  );
+}
+.btn-grad4 {
+  margin: 15px;
+  padding: 15px 45px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn-grad4:hover {
+  background-position: right center;
+  color: #fff;
+}
+
+.btn-grad6 {
+  background-image: linear-gradient(
+    to right,
+    #000000 0%,
+    #e74c3c 51%,
+    #000000 100%
+  );
+}
+.btn-grad6 {
+  margin: 15px;
+  padding: 15px 45px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: black;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn-grad6:hover {
+  background-position: right center;
+  color: #fff;
+}
+
+.btn-grad7 {
+  background-image: linear-gradient(
+    to right,
+    #948e99 0%,
+    #2e1437 51%,
+    #948e99 100%
+  );
+}
+.btn-grad7 {
+  margin: 15px;
+  padding: 15px 45px;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+}
+
+.btn-grad7:hover {
+  background-position: right center;
+  color: #fff;
+}
+
+section {
+  clear: both;
+  text-align: center;
+}
+
+#soon {
+  transition: opacity 1s;
+}
